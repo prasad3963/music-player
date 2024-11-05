@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+    <header>
+        <img src="playlist.svg" alt="playlis" id="playist_img">
+        <h2>FEEL THE MUSIC </h2>
+        <img src="music.svg" alt="music" id="music_img">
+ </header>
+ <main>
+    <div class="left">
+        <div class="song-img">
+            <img src="music.webp" alt="" id="musician">
+        </div>
+        <div class="volume-div">
+            <div class="vol-img"> <img src="volume.svg" alt="volume" id="vol-svg">
+            </div>
+            <input type="range" name="" id="volume-range" onchange="volume()">
+
+           
+        </div>
+
+
+
+    </div>
+<div class="right">
+<div class="details">
+    
+    <h3 id="song-name">ve kamleys</h3>
+    <h5 id="song-singer">arjit singh</h5>
+
+</div>
+<input type="range" id="song-duration" onchange="duration()">
+<div class="controls">
+    <div class="prev">
+        <img src="previous.svg" alt="prev" id="prev-img" onclick="previous()">
+    </div>
+    <div class="play"> <img src="play.svg" alt="play" id="play-img" onclick="pause()"></div>
+    
+   <div class="next">  <img src="next.svg" alt="next" id="next-img" onclick="nextsong()"></div>
+  
+
+
+</div>
+
+</div>
+<div class="playlist">
+    <div class="playlist-song">
+        <div class="playslist-song">
+            <img src="s1.jpg" alt="img">
+            <div class="songdetails">
+                <h2>ve kamleya</h2>
+                <h5>arjit singh</h5>
+            </div>
+        </div>
+
+    </div>
+    <div class="playlist-song">
+        <img src="s2.jpg" alt="img">
+            <div class="songdetails">
+                <h2>ve kamleya</h2>
+                <h5>arjit singh</h5>
+            </div>
+    </div>
+    <div class="playlist-song">
+        <img src="s3.jpg" alt="img">
+            <div class="songdetails">
+                <h2>ve kamleya</h2>
+                <h5>arjit singh</h5>
+            </div>
+    </div>
+    <div class="playlist-song">
+        <img src="s4.jpg" alt="img">
+            <div class="songdetails">
+                <h2>ve kamleya</h2>
+                <h5>arjit singh</h5>
+            </div>
+    </div>
+</div>
+
+
+
+ </main>
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
