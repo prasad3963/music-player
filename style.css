@@ -58,7 +58,7 @@ main{
     gap: 10px;
     width: 100px;
 }
-/* #volume-range{
+#volume-range{
     -webkit-appearance: none;
     position: absolute;
     top: 12px;
@@ -70,7 +70,7 @@ main{
     cursor: pointer;
     box-shadow: inset 2px 2px 10px black;
 
-} */
+}
 #volume-range::-webkit-slider-thumb{
     -webkit-appearance: none;
     background-color: rgba(218, 227, 45, 0.967);
